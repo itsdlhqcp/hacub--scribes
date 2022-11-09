@@ -1,0 +1,109 @@
+[debug] [2022-11-09T17:28:40.744Z] ----------------------------------------------------------------------
+[debug] [2022-11-09T17:28:40.749Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dil Haque\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-11-09T17:28:40.751Z] CLI Version:   11.16.0
+[debug] [2022-11-09T17:28:40.751Z] Platform:      win32
+[debug] [2022-11-09T17:28:40.752Z] Node Version:  v16.13.1
+[debug] [2022-11-09T17:28:40.753Z] Time:          Wed Nov 09 2022 22:58:40 GMT+0530 (India Standard Time)
+[debug] [2022-11-09T17:28:40.754Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-09T17:28:41.031Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-09T17:28:41.033Z] > authorizing via signed-in user (snapscribe54@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dil Haque\Downloads\Scribe-master
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-09T17:28:44.767Z] Using project from CLI flag: scribe-d63dd
+[debug] [2022-11-09T17:28:44.779Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/scribe-d63dd [none]
+[debug] [2022-11-09T17:28:45.897Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/scribe-d63dd 403
+[debug] [2022-11-09T17:28:45.898Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/scribe-d63dd {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-11-09T17:28:45.900Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-11-09T17:28:46.640Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Dil Haque\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Dil Haque\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project scribe-d63dd. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-11-09T17:32:59.387Z] ----------------------------------------------------------------------
+[debug] [2022-11-09T17:32:59.391Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dil Haque\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-11-09T17:32:59.392Z] CLI Version:   11.16.0
+[debug] [2022-11-09T17:32:59.393Z] Platform:      win32
+[debug] [2022-11-09T17:32:59.393Z] Node Version:  v16.13.1
+[debug] [2022-11-09T17:32:59.398Z] Time:          Wed Nov 09 2022 23:02:59 GMT+0530 (India Standard Time)
+[debug] [2022-11-09T17:32:59.399Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-09T17:32:59.564Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-09T17:32:59.564Z] > authorizing via signed-in user (snapscribe54@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dil Haque\Downloads\Scribe-master
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-11-09T17:33:04.959Z] Using project from CLI flag: hackhub-32fad
+[debug] [2022-11-09T17:33:04.971Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hackhub-32fad [none]
+[debug] [2022-11-09T17:33:05.762Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hackhub-32fad 200
+[debug] [2022-11-09T17:33:05.763Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hackhub-32fad {"projectId":"hackhub-32fad","projectNumber":"468810092742","displayName":"HackHub","name":"projects/hackhub-32fad","resources":{"hostingSite":"hackhub-32fad","realtimeDatabaseInstance":"hackhub-32fad-default-rtdb","storageBucket":"hackhub-32fad.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_14236854-6e90-44f3-913f-3e1fd9cdd7c6"}
+[info] i  Using project hackhub-32fad (HackHub) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-11-09T17:35:06.851Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-11-09T17:35:07.514Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-11-09T17:35:07.515Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.13.0","browserURL":"https://www.gstatic.com/firebasejs/9.13.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.13.0/firebase.tgz"},"live":{"version":"9.13","browserURL":"https://www.gstatic.com/firebasejs/live/9.13/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.13/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.13.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.13.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.13.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.13.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.13.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.13.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.13.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.13.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.13.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.13.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.13.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.13.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.13.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore.memory.js"}}
+[info] +  Wrote dist/Scribe/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\Dil Haque\Downloads 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=267589290&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-11-09T17:35:18.348Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-11-09T17:35:18.349Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-11-09T17:35:19.163Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-11-09T17:35:19.164Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-11-09T17:35:19.199Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-11-09T17:35:20.184Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-11-09T17:35:20.184Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"itsdlhqcp","id":95963252,"node_id":"U_kgDOBbhIdA","avatar_url":"https://avatars.githubusercontent.com/u/95963252?v=4","gravatar_id":"","url":"https://api.github.com/users/itsdlhqcp","html_url":"https://github.com/itsdlhqcp","followers_url":"https://api.github.com/users/itsdlhqcp/followers","following_url":"https://api.github.com/users/itsdlhqcp/following{/other_user}","gists_url":"https://api.github.com/users/itsdlhqcp/gists{/gist_id}","starred_url":"https://api.github.com/users/itsdlhqcp/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/itsdlhqcp/subscriptions","organizations_url":"https://api.github.com/users/itsdlhqcp/orgs","repos_url":"https://api.github.com/users/itsdlhqcp/repos","events_url":"https://api.github.com/users/itsdlhqcp/events{/privacy}","received_events_url":"https://api.github.com/users/itsdlhqcp/received_events","type":"User","site_admin":false,"name":"DILHAQUE","company":null,"blog":"","location":"kozhikode","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":11,"public_gists":0,"followers":2,"following":2,"created_at":"2021-12-11T10:46:11Z","updated_at":"2022-10-19T04:47:50Z","private_gists":0,"total_private_repos":10,"owned_private_repos":10,"disk_usage":95171,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as itsdlhqcp 
+[info] 
